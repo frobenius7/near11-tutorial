@@ -1,6 +1,6 @@
 # near11-tutorial - NEAR Command Line Interface 101 
 
-In this smaall tutorial i will show you some useful examples of basic NEAR CLI commands. 
+In this small tutorial i will show you some useful examples of basic NEAR CLI commands. 
 
 ## Prerequisite (what you need to do before start)
 1.Basic experience of using command line (terminal) interface on Mac\Linux\powershell
