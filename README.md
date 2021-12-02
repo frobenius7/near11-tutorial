@@ -13,8 +13,7 @@ for more information refer to https://docs.near.org/docs/develop/basics/create-a
 
 for more information refer to https://docs.near.org/docs/tools/near-cli#setup
 
-
-# First step - Login 
+## First step - Login 
 
 To use the near CLI you need to login via your account.
 
@@ -28,7 +27,7 @@ you should select which account you would like an access key to.
 In case of success you will see something like this:
 >Logged in as [ vetal.testnet ] with public key ..... successfully
 
-# Second step - setting up alias  
+## Second step - setting up alias  
 
 To follow instuctions from this tutorial in a more simple way(just copy\paste commands) we will set a "alias" for your account ID. Replace YOUR_ACCOUNT_NAME with the account name you just logged in in step one with including the .testnet (or .near for mainnet):
 
@@ -79,7 +78,7 @@ you will see somtething like this
 
 cool! we have 10 of Near on this account (see `formattedAmount` parameter 
 
-# Fourth step - transferring some NEAR tokens from one account to another 
+## Fourth step - transferring some NEAR tokens from one account to another 
 
 Lets transfer 5 NEAR tokens from subaccount to main account!
 
@@ -111,7 +110,7 @@ so if we repeat command `near status cool-sub-account.$ID` we will see that only
   formattedAmount: '4.9999553634875'
 }
 
-# Fifth step - deleting a sub-account
+## Fifth step - deleting a sub-account
 
 Now let's do the "cleanup" and delete this sub-account (and transfer all remaining balances to main account)
 We can do this using `near delete` command with following parameters
@@ -129,4 +128,4 @@ To see the transaction in the transaction explorer, please open this url in your
 https://explorer.testnet.near.org/transactions/GzqHyjz7hD9vBaDWUQNJtzCNg1D3QtKdxTqWR4MRBYWa
 Account cool-sub-account.vetal.testnet for network "testnet" was deleted
 
-# Thats all for today! =)
+## Thats all for today! =)
